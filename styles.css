@@ -502,6 +502,7 @@ footer {
   gap: 30px;
   width: 100%;
   justify-content: center;
+  align-items: flex-start;
 }
 
 .footer-column {
@@ -509,6 +510,7 @@ footer {
   flex-direction: column;
   align-items: flex-start;
   max-width: 300px;
+  min-height: 350px;
 }
 
 .footer-column h4 {
@@ -672,6 +674,7 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    min-height: auto;
   }
 
   .footer-column h4 {
@@ -703,11 +706,16 @@ footer {
     margin: 10px 0;
   }
 
+  .social-column {
+    align-items: center;
+    min-height: auto;
+  }
+
   .social-icons {
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     width: 100%;
-    margin-bottom: 25px;
+    margin: 20px 0;
   }
 
   .footer-certifications {
