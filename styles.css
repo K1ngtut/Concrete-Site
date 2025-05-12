@@ -656,24 +656,18 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .footer-wrapper {
-    padding: 30px 15px;
-  }
-
   .footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     gap: 30px;
-    width: 100%;
-    max-width: 100%;
-    padding: 0 15px;
-    box-sizing: border-box;
+    padding: 20px;
   }
 
   .footer-column {
     width: 100%;
-    max-width: 400px;
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -686,51 +680,38 @@ footer {
     margin-bottom: 20px;
   }
 
-  .footer-column h4::after {
-    left: 0;
-    transform: translateX(0);
-  }
-
   .footer-column ul {
+    padding-left: 0;
+    list-style: none;
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 15px;
   }
 
   .footer-column ul li {
-    text-align: left;
+    text-align: center;
     width: 100%;
-    justify-content: flex-start;
+    justify-content: center;
   }
 
   .icon-wrapper {
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     width: 100%;
     margin: 10px 0;
   }
 
-  .icon-wrapper a, .icon-wrapper span {
-    font-size: 1rem;
-    padding: 10px;
-  }
-
   .social-icons {
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
     width: 100%;
     margin-bottom: 25px;
   }
 
-  .social-icons a {
-    width: 50px;
-    height: 50px;
-    font-size: 1.5rem;
-  }
-
   .footer-certifications {
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -738,23 +719,9 @@ footer {
     width: 100%;
   }
 
-  .certification-item {
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    width: 100%;
-  }
-
-  .certification-item i {
-    font-size: 1.2rem;
-  }
-
-  .certification-item span {
-    font-size: 1rem;
-  }
-
   .footer-bottom {
-    padding: 20px 15px;
-    font-size: 0.9rem;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 0.85rem;
   }
 }
